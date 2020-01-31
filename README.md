@@ -8,7 +8,7 @@
 ### 一键脚本(先运行脚本,在自行修改frps.ini)
 安装
 ```shell
-wget https://raw.githubusercontent.com/stilleshan/frps.sh/master/frps.sh && chmod +x frps.sh && ./frps.sh
+wget https://raw.githubusercontent.com/d975xbx/frps.sh/master/frps.sh && chmod +x frps.sh && ./frps.sh
 ```
 卸载
 ```shell
