@@ -12,7 +12,7 @@ wget https://raw.githubusercontent.com/d975xbx/frps.sh/master/frps.sh && chmod +
 ```
 卸载
 ```shell
-wget https://raw.githubusercontent.com/stilleshan/frps.sh/master/unfrps.sh && chmod +x unfrps.sh && ./unfrps.sh
+wget https://raw.githubusercontent.com/d975xbx/frps.sh/master/unfrps.sh && chmod +x unfrps.sh && ./unfrps.sh
 ```
 安装完毕后配置frps.ini
 ```shell
@@ -31,17 +31,17 @@ sudo systemctl restart frps
 
 #### 修改 frps.sh 脚本
 `FRP_VERSION="0.31.1"` 可根据原版项目更新自行修改为最新版本  
-`REPO="stilleshan/frps.sh"` 由于fork到你自己的仓库,修改`stilleshan`为你的GitHub账号ID
+`REPO="d975xbx/frps.sh"` 由于fork到你自己的仓库,修改`d975xbx`为你的GitHub账号ID
 
 #### 修改并运行一键脚本
-修改以下脚本链接中的`stilleshan`为你的GitHub账号ID后,运行即可.
+修改以下脚本链接中的`d975xbx`为你的GitHub账号ID后,运行即可.
 ```shell
-wget https://raw.githubusercontent.com/stilleshan/frps.sh/master/frps.sh && chmod +x frps.sh && ./frps.sh
+wget https://raw.githubusercontent.com/d975xbx/frps.sh/master/frps.sh && chmod +x frps.sh && ./frps.sh
 ```
 #### 卸载脚本
 unfrps.sh卸载脚本为通用脚本,可同上方法修改也可使用本仓库的脚本.
 ```shell
-wget https://raw.githubusercontent.com/stilleshan/frps.sh/master/unfrps.sh && chmod +x unfrps.sh && ./unfrps.sh
+wget https://raw.githubusercontent.com/d975xbx/frps.sh/master/unfrps.sh && chmod +x unfrps.sh && ./unfrps.sh
 ```
 
 ### frps相关命令
